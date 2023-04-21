@@ -4,12 +4,9 @@ import {
     FaTimes,
     FaGithub,
     FaLinkedin,
-    FaFacebook,
-    FaLinkedinIn,
+
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -101,7 +98,8 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href='/'
+                            href='https://www.linkedin.com/in/youssef-elyourizi-32b877190/'
+                            target="_blank"
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
@@ -110,16 +108,9 @@ const Navbar = () => {
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://github.com/youssefelyou'
+                            target="_blank"
                         >
                             Github <FaGithub size={30} />
-                        </a>
-                    </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                        <a
-                            className='flex justify-between items-center w-full text-gray-300'
-                            href='/'
-                        >
-                            Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
