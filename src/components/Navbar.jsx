@@ -34,7 +34,7 @@ const Navbar = () => {
                     <a href='/skills'>Skills</a>
                 </li>
                 <li>
-                    <a href='/work'>Work</a>
+                    <a href='/work'>Projects</a>
                 </li>
                 <li>
                     <a href='/contact'>Contact</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 </li>
                 <li className='py-6 text-4xl'>
                     {' '}
-                    <a href='/work'>Work</a>
+                    <a href='/work'>Projects</a>
                 </li>
                 <li className='py-6 text-4xl'>
                     {' '}
