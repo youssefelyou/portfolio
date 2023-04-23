@@ -11,21 +11,14 @@ const Home = () => {
                     YOUSSEF ELYOURIZI
                 </h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-                    I'm a Full Stack Developer.
+                    Software Engineering Student.
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                    I’m a full-stack developer specializing in building
-                     exceptional digital experiences. Currently, I’m focused on
-                    building responsive full-stack web applications.
+                   Currently I am continuing my studies at EMSI School.I am passionate about building excellent software that improves
+                    the lives of those around me. I specialize in creating software
+                    for clients ranging from individuals and small-businesses all the
+                    way to large enterprise corporations.
                 </p>
-                <div>
-                    <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-                        View Work
-                        <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
-                    </button>
-                </div>
             </div>
         </div>
     );

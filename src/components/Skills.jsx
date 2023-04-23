@@ -1,16 +1,15 @@
 import React from 'react';
 
-import Angular from '../assets/angular.png'
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import GitHub from '../assets/github.png';
-import Spring from '../assets/spring-boot.png';
-import Flutter from '../assets/flutter.png';
-import Net from '../assets/.net.png';
-import Csharp from '../assets/csharp.png';
-import Django from '../assets/django.png';
-import Java from '../assets/java.png';
+import Angular from '../images/angular.png'
+import JavaScript from '../images/javascript.png';
+import ReactImg from '../images/react.png';
+import Node from '../images/node.png';
+import Spring from '../images/spring-boot.png';
+import Flutter from '../images/flutter.png';
+import Net from '../images/.net.png';
+import Csharp from '../images/csharp.png';
+import Django from '../images/django.png';
+import Java from '../images/java.png';
 
 const Skills = () => {
     return (
@@ -22,7 +21,7 @@ const Skills = () => {
                     <p className='py-4'> These are the technologies I have worked with</p>
                 </div>
 
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Spring} alt="HTML icon" />
                         <p className='my-4'>SPRING BOOT</p>
@@ -42,10 +41,6 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                         <p className='my-4'>REACT</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                        <p className='my-4'>GITHUB</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
