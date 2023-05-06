@@ -16,7 +16,7 @@ export default function Education() {
                         <div  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                         </div>
                         <p className="text-center font-semibold mt-5" >
-                            2022-2024 : Software Enginnering at École Marocaine des Sciences de l'Ingénieur
+                            2022-2024 : Software Engineering at École Marocaine des Sciences de l'Ingénieur
                         </p>
                         <p className="text-center font-semibold mt-5" >
                             I am continuing my studies to get my engineering degree at <span className="text-amber-200"> EMSI </span> School,
