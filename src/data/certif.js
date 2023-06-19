@@ -4,6 +4,7 @@ import cloud from '../images/certif/cloud.png'
 import devops from '../images/certif/devops.png'
 import mongodb from '../images/certif/mongodb.png'
 import react from '../images/certif/react.png'
+import android from '../images/certif/android.png'
 export const data=[
     {
         id:1,
@@ -41,6 +42,13 @@ export const data=[
         name:"Introduction to DevOps",
         image:devops,
         reference:"https://www.coursera.org/account/accomplishments/certificate/9P3N5DRYG3KD"
+    },
+
+    {
+        id:6,
+        name:"Android App Development",
+        image:android,
+        reference:"https://www.coursera.org/account/accomplishments/specialization/TY2TEQDESKF7"
     },
 
 
