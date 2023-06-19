@@ -2,6 +2,7 @@ import parapharmacy from '../images/Projects/parapharmacy.png'
 import abht from '../images/Projects/abht.png'
 import morpion from '../images/Projects/morpion.png'
 import smarthome from '../images/Projects/smarthome.jpg'
+import pharmacylocation from '../images/Projects/pharmacylocation.png'
 export const data=[
     {
         id:1,
@@ -25,9 +26,9 @@ export const data=[
     },
     {
         id:4,
-        name:"Morpion",
-        image:morpion,
-        github:"https://github.com/youssefelyou/morpion-React"
+        name:"Pharmacy Location Application with Spring and React",
+        image:pharmacylocation,
+        github:"https://github.com/youssefelyou/pharmacy-location-front"
 
     },
 
